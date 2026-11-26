@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "imitating-the-shepherd",
+    "topic": "holiness",
+    "img": "img/e1.webp",
+    "alt": {
+      "id": "Lukisan potret St. Yohanes Maria Vianney, setengah badan",
+      "en": "Painted portrait of St. John Mary Vianney, half-length"
+    },
+    "title": {
+      "id": "Meneladani Sang Gembala",
+      "en": "Imitating the Shepherd"
+    },
+    "excerpt": {
+      "id": "Kamu sepenuhnya milik dunia atau sepenuhnya milik Tuhan.",
+      "en": "You are either wholly the world’s or wholly the Lord’s."
+    },
+    "body": {
+      "id": "",
+      "en": ""
+    },
+    "pages": [
+      "img/decks/imitating-the-shepherd/p-01.webp",
+      "img/decks/imitating-the-shepherd/p-02.webp",
+      "img/decks/imitating-the-shepherd/p-03.webp",
+      "img/decks/imitating-the-shepherd/p-04.webp",
+      "img/decks/imitating-the-shepherd/p-05.webp",
+      "img/decks/imitating-the-shepherd/p-06.webp",
+      "img/decks/imitating-the-shepherd/p-07.webp",
+      "img/decks/imitating-the-shepherd/p-08.webp",
+      "img/decks/imitating-the-shepherd/p-09.webp",
+      "img/decks/imitating-the-shepherd/p-10.webp",
+      "img/decks/imitating-the-shepherd/p-11.webp",
+      "img/decks/imitating-the-shepherd/p-12.webp",
+      "img/decks/imitating-the-shepherd/p-13.webp",
+      "img/decks/imitating-the-shepherd/p-14.webp",
+      "img/decks/imitating-the-shepherd/p-15.webp",
+      "img/decks/imitating-the-shepherd/p-16.webp",
+      "img/decks/imitating-the-shepherd/p-17.webp",
+      "img/decks/imitating-the-shepherd/p-18.webp",
+      "img/decks/imitating-the-shepherd/p-19.webp"
+    ]
+  },
+  {
+    "slug": "holy-communion",
+    "topic": "eucharist",
+    "img": "img/e6.webp",
+    "alt": {
+      "id": "Mosaik penyaliban di atas altar Misa",
+      "en": "Mosaic of the crucifixion above the altar of the Mass"
+    },
+    "title": {
+      "id": "Komuni Kudus",
+      "en": "Holy Communion"
+    },
+    "excerpt": {
+      "id": "Sesuatu yang Kudus harus diterima dengan cara yang Kudus pula.",
+      "en": "Something holy must be received in a holy way."
+    },
+    "body": {
+      "id": "",
+      "en": ""
+    },
+    "pages": [
+      "img/decks/holy-communion/p-01.webp",
+      "img/decks/holy-communion/p-02.webp",
+      "img/decks/holy-communion/p-03.webp",
+      "img/decks/holy-communion/p-04.webp",
+      "img/decks/holy-communion/p-05.webp",
+      "img/decks/holy-communion/p-06.webp",
+      "img/decks/holy-communion/p-07.webp",
+      "img/decks/holy-communion/p-08.webp",
+      "img/decks/holy-communion/p-09.webp",
+      "img/decks/holy-communion/p-10.webp",
+      "img/decks/holy-communion/p-11.webp",
+      "img/decks/holy-communion/p-12.webp",
+      "img/decks/holy-communion/p-13.webp",
+      "img/decks/holy-communion/p-14.webp",
+      "img/decks/holy-communion/p-15.webp",
+      "img/decks/holy-communion/p-16.webp",
+      "img/decks/holy-communion/p-17.webp",
+      "img/decks/holy-communion/p-18.webp",
+      "img/decks/holy-communion/p-19.webp"
+    ]
+  }
+]

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yoanes Vianney — Essays on holiness, confession and the Eucharist</title>
+<meta name="description" content="Essays and teaching notes by Yoanes Vianney on holiness, Confession and the Eucharist.">
+<meta name="theme-color" content="#1e2023">
+<link rel="preload" href="fonts/CormorantGaramond.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Lewati ke konten</a>
+
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#home">Yoanes Vianney</a>
+    <div class="header-right">
+      <nav class="nav" id="nav" data-i18n-label="navLabel" aria-label="Menu utama">
+        <a href="#home" data-i18n="nav.home">Beranda</a>
+        <a href="#essays" data-i18n="nav.essays">Esai</a>
+        <a href="#about" data-i18n="nav.about">Tentang</a>
+        <a href="#contact" data-i18n="nav.contact">Kontak</a>
+      </nav>
+      <div class="lang" role="group" data-i18n-label="langLabel" aria-label="Bahasa">
+        <button type="button" data-lang="id" lang="id" aria-pressed="true" aria-label="Bahasa Indonesia">ID</button>
+        <button type="button" data-lang="en" lang="en" aria-pressed="false" aria-label="English">EN</button>
+      </div>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav" data-i18n-label="menu" aria-label="Buka menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+
+  <!-- HOME -->
+  <div id="view-home">
+    <section class="hero" aria-labelledby="hero-title">
+      <h1 id="hero-title" class="sr">Yoanes Maria Vianney</h1>
+      <div class="hero-stage">
+        <p class="hero-name first" aria-hidden="true">Yoanes</p>
+        <div class="portrait"><img src="img/yoanes.webp" width="636" height="954" data-i18n-alt="heroAlt" alt=""></div>
+        <p class="hero-name last" aria-hidden="true">Vianney</p>
+        <a class="card-paper" id="paper" href="#">
+          <span class="k" id="paper-k"></span>
+          <span class="t" id="paper-t"></span>
+          <span class="row"><img id="paper-img" src="" alt="" width="64" height="80"><span class="lines" aria-hidden="true"><i></i><i></i><i></i><i></i></span></span>
+        </a>
+        <p class="sign" aria-hidden="true"><span class="s1">Yoanes</span><span class="s2">Vianney</span></p>
+      </div>
+      <div class="hero-feature">
+        <blockquote class="verse">
+          <p class="latin" lang="la">Ecce ancilla Domini, fiat mihi secundum verbum tuum.</p>
+          <p class="en" data-i18n="verse"></p>
+          <p class="ref eyebrow"><b data-i18n="ref">Lukas 1:38</b></p>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="essays" id="essays" aria-labelledby="essays-h">
+      <div class="wrap">
+        <div class="section-title">
+          <span class="script" aria-hidden="true" data-i18n="script">Jurnal Esai</span>
+          <h2 id="essays-h" data-i18n="essaysH">Esai Pilihan</h2>
+          <hr>
+        </div>
+        <div class="tools">
+          <div class="filters" role="group" data-i18n-label="filterLabel" aria-label="Saring esai menurut topik" id="filters"></div>
+          <div class="arrows">
+            <button type="button" id="prev" data-i18n-label="prev" aria-label="Geser esai ke kiri"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg></button>
+            <button type="button" id="next" data-i18n-label="next" aria-label="Geser esai ke kanan"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+          </div>
+        </div>
+      </div>
+      <div id="essay-list" aria-live="polite"></div>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-h">
+      <div class="wrap">
+        <div>
+          <figure class="about-photo"><img src="img/about.webp" width="541" height="572" data-i18n-alt="aboutAlt" alt=""></figure>
+        </div>
+        <div>
+          <h2 id="about-h">Yoanes Maria Vianney B.P.S.</h2>
+          <div class="body">
+            <p id="bio"></p>
+          </div>
+          <dl class="contact" id="contact">
+            <div><dt data-i18n="social">Sosial</dt><dd><a class="social" id="ig" href="https://www.instagram.com/p/CrUO_2Jv8wq/" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/></svg>Instagram</a></dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ARTICLE -->
+  <article id="view-article" class="article" hidden>
+    <div class="wrap">
+      <a class="back" href="#essays">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        <span data-i18n="back">Semua esai</span>
+      </a>
+      <p class="eyebrow" id="a-topic" style="margin-top:var(--s6)"></p>
+      <h1 id="a-title" tabindex="-1"></h1>
+      <blockquote class="pull" id="a-pull"></blockquote>
+      <div class="prose" id="a-body"></div>
+      <div class="deck" id="a-deck"></div>
+      <nav class="pager" id="a-pager" data-i18n-label="more" aria-label="Esai lainnya"></nav>
+    </div>
+  </article>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <small>© <span id="year"></span> Yoanes Vianney</small>
+  </div>
+</footer>
+
+<script src="js/app.js" defer></script>
+</body>
+</html>

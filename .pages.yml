@@ -1,0 +1,75 @@
+media:
+  input: img
+  output: img
+
+content:
+  - name: essays
+    label: Esai / Essays
+    type: file
+    path: content/essays.json
+    format: json
+    list: true
+    fields:
+      - name: slug
+        label: Slug (huruf kecil-dan-strip, unik / lowercase-with-dashes, unique)
+        type: string
+        required: true
+      - name: topic
+        label: Topik / Topic
+        type: select
+        options:
+          values:
+            - name: holiness
+              label: Kekudusan / Holiness
+            - name: eucharist
+              label: Ekaristi / Eucharist
+      - name: img
+        label: Gambar sampul (potret 4:5) / Cover image (4:5 portrait)
+        type: image
+      - name: alt
+        label: Deskripsi gambar / Image description
+        type: object
+        fields:
+          - { name: id, label: Indonesia, type: string }
+          - { name: en, label: English, type: string }
+      - name: title
+        label: Judul / Title
+        type: object
+        fields:
+          - { name: id, label: Indonesia, type: string }
+          - { name: en, label: English, type: string }
+      - name: excerpt
+        label: Kutipan singkat / Short excerpt
+        type: object
+        fields:
+          - { name: id, label: Indonesia, type: text }
+          - { name: en, label: English, type: text }
+      - name: body
+        label: Isi esai / Essay text
+        type: object
+        fields:
+          - { name: id, label: Indonesia, type: rich-text }
+          - { name: en, label: English, type: rich-text }
+      - name: pages
+        label: Halaman PDF (gambar berurutan) / PDF pages (images in order)
+        type: image
+        options: { multiple: true }
+
+  - name: site
+    label: Profil / Profile
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: name
+        label: Nama / Name
+        type: string
+      - name: bio
+        label: Bio
+        type: object
+        fields:
+          - { name: id, label: Indonesia, type: rich-text }
+          - { name: en, label: English, type: rich-text }
+      - name: instagram
+        label: Tautan Instagram / Instagram link
+        type: string
